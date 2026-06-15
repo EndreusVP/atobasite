@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATOBÁ — Construções e Serviços | Construindo o Futuro com Excelência</title>
+  <meta name="description" content="ATOBÁ Construções e Serviços. Engenharia de excelência, projetos que transformam sonhos em estruturas reais. Construção Civil, Reformas, Manutenção e muito mais." />
+  <meta name="keywords" content="construção civil, reformas, engenharia, manutenção predial, instalações elétricas, hidráulica, gestão de obras, ATOBÁ" />
+  <meta name="author" content="ATOBÁ Construções e Serviços" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ATOBÁ — Construções e Serviços" />
+  <meta property="og:description" content="Construindo o futuro com excelência. Engenharia, inovação e qualidade em cada projeto." />
+  <meta property="og:url" content="https://atoba.com.br" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ATOBÁ — Construções e Serviços" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ATOBÁ Construções e Serviços",
+    "url": "https://atoba.com.br",
+    "description": "Empresa de construção civil com foco em inovação e excelência.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. das Engenharias, 1200",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "telephone": "+55-11-99999-0000"
+  }
+  </script>
+</head>
+<body>
+
+<!-- Progress Bar -->
+<div id="progress-bar" role="progressbar" aria-label="Progresso da página"></div>
+
+<!-- Loader -->
+<div id="loader" role="status" aria-label="Carregando">
+  <div class="loader-brand">AT<span>OBÁ</span></div>
+  <div class="loader-bar-wrap"><div class="loader-bar" id="loader-bar"></div></div>
+  <div class="loader-text" id="loader-text">Inicializando sistemas...</div>
+</div>
+
+<!-- Navbar -->
+<nav id="navbar" role="navigation" aria-label="Navegação principal">
+  <a href="#hero" class="nav-logo" aria-label="ATOBÁ — Início">AT<span>OBÁ</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">Sobre</a></li>
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#process">Processo</a></li>
+    <li><a href="#projects">Projetos</a></li>
+    <li><a href="#contact" class="nav-cta">Orçamento</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══════ HERO ══════ -->
+<section id="hero" aria-label="Início — Cidade futurista em construção">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-content">
+    <span class="hero-eyebrow">Desde 2005 — Engenharia de Excelência</span>
+    <h1 class="hero-title">
+      Construindo<br>o <span class="accent">Futuro</span><br>com Excelência.
+    </h1>
+    <p class="hero-subtitle">
+      Da fundação ao acabamento, transformamos projetos em realidades duradouras. Tecnologia, precisão e compromisso em cada obra.
+    </p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn-primary">
+        <i class="fas fa-hard-hat" aria-hidden="true"></i> Solicitar Orçamento
+      </a>
+      <a href="#projects" class="btn-ghost">
+        <i class="fas fa-building" aria-hidden="true"></i> Ver Projetos
+      </a>
+    </div>
+  </div>
+  <div class="hero-stats" aria-label="Indicadores da empresa">
+    <div class="hero-stat">
+      <div class="hero-stat-num">580<span>+</span></div>
+      <div class="hero-stat-label">Obras Concluídas</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">19<span>anos</span></div>
+      <div class="hero-stat-label">No Mercado</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">98<span>%</span></div>
+      <div class="hero-stat-label">Clientes Satisfeitos</div>
+    </div>
+  </div>
+  <div class="scroll-indicator" aria-hidden="true">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ ABOUT ══════ -->
+<section id="about" class="section-pad" aria-labelledby="about-title">
+  <span class="section-eyebrow reveal">Nossa Identidade</span>
+  <h2 class="section-title reveal" id="about-title">Quem é a <span class="accent">ATOBÁ</span></h2>
+  <p class="section-lead reveal">Há quase duas décadas transformando projetos em estruturas que marcam gerações. Somos mais do que uma construtora — somos arquitetos do futuro.</p>
+
+  <div class="about-grid">
+    <div class="about-mvv reveal">
+      <div class="mvv-card">
+        <h3>Missão</h3>
+        <p>Entregar soluções construtivas com máxima qualidade, segurança e inovação, superando as expectativas dos nossos clientes e contribuindo para o desenvolvimento sustentável das cidades.</p>
+      </div>
+      <div class="mvv-card">
+        <h3>Visão</h3>
+        <p>Ser a empresa de construção civil mais referenciada do Brasil até 2030, reconhecida pela excelência técnica, adoção de tecnologias BIM e compromisso socioambiental.</p>
+      </div>
+      <div class="mvv-card">
+        <h3>Valores</h3>
+        <p>Integridade nas relações, inovação constante, segurança como prioridade absoluta, respeito às pessoas e ao meio ambiente, e entrega com excelência em cada detalhe.</p>
+      </div>
+    </div>
+    <div class="about-numbers reveal">
+      <div class="num-card">
+        <div class="num-val" data-target="580">0<span>+</span></div>
+        <div class="num-label">Obras entregues</div>
+      </div>
+      <div class="num-card">
+        <div class="num-val" data-target="200">0<span>+</span></div>
+        <div class="num-label">Profissionais</div>
+      </div>
+      <div class="num-card">
+        <div class="num-val" data-target="19">0</div>
+        <div class="num-label">Anos de mercado</div>
+      </div>
+      <div class="num-card">
+        <div class="num-val" data-target="98">0<span>%</span></div>
+        <div class="num-label">NPS satisfação</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline reveal">
+    <p class="timeline-title">Nossa Trajetória</p>
+    <div class="timeline-line" aria-hidden="true"></div>
+    <div class="timeline-items">
+      <div class="tl-item">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-year">2005</div>
+        <div class="tl-text">Fundação da ATOBÁ em São Paulo com foco em reformas residenciais e pequenas obras comerciais.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-year">2010</div>
+        <div class="tl-text">Expansão para obras industriais e obtenção das certificações ISO 9001 e OHSAS 18001.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-year">2016</div>
+        <div class="tl-text">Adoção pioneira de metodologia BIM e abertura do segundo escritório em Campinas.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-year">2024</div>
+        <div class="tl-text">580ª obra entregue e lançamento da plataforma digital de gestão de projetos em tempo real.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ SERVICES ══════ -->
+<section id="services" class="section-pad" aria-labelledby="services-title">
+  <span class="section-eyebrow reveal">O Que Construímos</span>
+  <h2 class="section-title reveal" id="services-title">Nossos <span class="accent">Serviços</span></h2>
+  <p class="section-lead reveal">Cada serviço é um edifício na cidade que construímos. Expertise completa do planejamento à entrega final.</p>
+
+  <div class="services-grid">
+    <article class="service-card reveal" tabindex="0">
+      <div class="svc-number" aria-hidden="true">01</div>
+      <div class="svc-icon-wrap"><i class="fas fa-building" aria-hidden="true"></i></div>
+      <h3 class="svc-name">Construção Civil</h3>
+      <p class="svc-desc">Obras residenciais, comerciais e industriais com gestão completa, desde a fundação à entrega com chave na mão.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Residencial</span>
+        <span class="svc-tag">Comercial</span>
+        <span class="svc-tag">Industrial</span>
+      </div>
+    </article>
+    <article class="service-card reveal" tabindex="0">
+      <div class="svc-number" aria-hidden="true">02</div>
+      <div class="svc-icon-wrap"><i class="fas fa-tools" aria-hidden="true"></i></div>
+      <h3 class="svc-name">Reformas</h3>
+      <p class="svc-desc">Revitalizações completas com mínimo de interrupção. Projetos de reforma que respeitam prazos e orçamentos.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Retrofit</span>
+        <span class="svc-tag">Corporativo</span>
+      </div>
+    </article>
+    <article class="service-card reveal" tabindex="0">
+      <div class="svc-number" aria-hidden="true">03</div>
+      <div class="svc-icon-wrap"><i class="fas fa-wrench" aria-hidden="true"></i></div>
+      <h3 class="svc-name">Manutenção</h3>
+      <p class="svc-desc">Planos preventivos e corretivos que prolongam a vida útil das edificações e evitam custos inesperados.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Preventiva</span>
+        <span class="svc-tag">Corretiva</span>
+      </div>
+    </article>
+    <article class="service-card reveal" tabindex="0">
+      <div class="svc-number" aria-hidden="true">04</div>
+      <div class="svc-icon-wrap"><i class="fas fa-bolt" aria-hidden="true"></i></div>
+      <h3 class="svc-name">Instalações Elétricas</h3>
+      <p class="svc-desc">Projetos e execução de sistemas elétricos de alta e baixa tensão, automação e eficiência energética.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Alta Tensão</span>
+        <span class="svc-tag">Automação</span>
+      </div>
+    </article>
+    <article class="service-card reveal" tabindex="0">
+      <div class="svc-number" aria-hidden="true">05</div>
+      <div class="svc-icon-wrap"><i class="fas fa-faucet" aria-hidden="true"></i></div>
+      <h3 class="svc-name">Instalações Hidráulicas</h3>
+      <p class="svc-desc">Sistemas completos de abastecimento, esgoto e drenagem pluvial com materiais de primeira linha.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Predial</span>
+        <span class="svc-tag">Industrial</span>
+      </div>
+    </article>
+    <article class="service-card reveal" tabindex="0">
+      <div class="svc-number" aria-hidden="true">06</div>
+      <div class="svc-icon-wrap"><i class="fas fa-clipboard-list" aria-hidden="true"></i></div>
+      <h3 class="svc-name">Gestão de Obras</h3>
+      <p class="svc-desc">Gerenciamento integrado com dashboard em tempo real, controle de custos e relatórios semanais para o cliente.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">BIM</span>
+        <span class="svc-tag">Dashboard</span>
+        <span class="svc-tag">Real-time</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ PROCESS ══════ -->
+<section id="process" class="section-pad" aria-labelledby="process-title">
+  <span class="section-eyebrow reveal">Como Trabalhamos</span>
+  <h2 class="section-title reveal" id="process-title">O Nosso <span class="accent">Processo</span></h2>
+  <p class="section-lead reveal">Uma metodologia desenvolvida ao longo de 19 anos para entregar máxima qualidade em cada etapa.</p>
+
+  <div class="process-steps">
+    <div class="process-connector" aria-hidden="true"></div>
+    <div class="step-item reveal">
+      <div class="step-num">1</div>
+      <div class="step-icon"><i class="fas fa-drafting-compass" aria-hidden="true"></i></div>
+      <div class="step-name">Planejamento</div>
+      <p class="step-desc">Levantamento detalhado, projeto executivo e cronograma aprovado pelo cliente antes de iniciar qualquer obra.</p>
+    </div>
+    <div class="step-item reveal">
+      <div class="step-num">2</div>
+      <div class="step-icon"><i class="fas fa-layer-group" aria-hidden="true"></i></div>
+      <div class="step-name">Fundação</div>
+      <p class="step-desc">Preparação do terreno e execução de fundações com sondagem e laudo técnico assinado por engenheiro responsável.</p>
+    </div>
+    <div class="step-item reveal">
+      <div class="step-num">3</div>
+      <div class="step-icon"><i class="fas fa-cubes" aria-hidden="true"></i></div>
+      <div class="step-name">Estrutura</div>
+      <p class="step-desc">Erguimento das estruturas com controle de qualidade contínuo, ensaios de resistência e inspeções diárias.</p>
+    </div>
+    <div class="step-item reveal">
+      <div class="step-num">4</div>
+      <div class="step-icon"><i class="fas fa-paint-roller" aria-hidden="true"></i></div>
+      <div class="step-name">Acabamento</div>
+      <p class="step-desc">Detalhamento fino com materiais selecionados, vistorias de qualidade e alinhamento com o projeto original.</p>
+    </div>
+    <div class="step-item reveal">
+      <div class="step-num">5</div>
+      <div class="step-icon"><i class="fas fa-key" aria-hidden="true"></i></div>
+      <div class="step-name">Entrega</div>
+      <p class="step-desc">Vistoria final, documentação completa, treinamento de operação e garantia pós-obra de 5 anos.</p>
+    </div>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ PROJECTS ══════ -->
+<section id="projects" class="section-pad" aria-labelledby="projects-title">
+  <span class="section-eyebrow reveal">Portfólio</span>
+  <h2 class="section-title reveal" id="projects-title">Nossos <span class="accent">Projetos</span></h2>
+  <p class="section-lead reveal">Obras que falam por si. Cada projeto é uma prova do nosso compromisso com a excelência.</p>
+
+  <div class="projects-grid">
+    <div class="project-card reveal" tabindex="0" role="article" aria-label="Torre Horizonte - Complexo Corporativo">
+      <div class="project-bg" style="background-image: url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80'); background-size: cover; background-position: center;" aria-hidden="true"></div>
+      <div class="project-overlay" style="background: linear-gradient(to top, rgba(6,24,38,0.95) 0%, rgba(6,24,38,0.1) 50%, transparent 100%);">
+        <div class="project-badge">Complexo Corporativo</div>
+        <h3 class="project-name">Torre Horizonte</h3>
+        <p class="project-meta">São Paulo, SP &nbsp;·&nbsp; 28 andares &nbsp;·&nbsp; 2023</p>
+      </div>
+      <div class="project-arrow" aria-hidden="true"><i class="fas fa-arrow-up-right-from-square"></i></div>
+    </div>
+    <div class="project-card reveal" tabindex="0" role="article" aria-label="Condomínio Vila Serra">
+      <div class="project-bg" style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80'); background-size: cover; background-position: center;" aria-hidden="true"></div>
+      <div class="project-overlay">
+        <div class="project-badge">Residencial</div>
+        <h3 class="project-name">Condomínio Vila Serra</h3>
+        <p class="project-meta">Campinas, SP &nbsp;·&nbsp; 120 unidades &nbsp;·&nbsp; 2022</p>
+      </div>
+      <div class="project-arrow" aria-hidden="true"><i class="fas fa-arrow-up-right-from-square"></i></div>
+    </div>
+    <div class="project-card reveal" tabindex="0" role="article" aria-label="HUB Industrial Votorantim">
+      <div class="project-bg" style="background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80'); background-size: cover; background-position: center;" aria-hidden="true"></div>
+      <div class="project-overlay">
+        <div class="project-badge">Industrial</div>
+        <h3 class="project-name">HUB Industrial Votorantim</h3>
+        <p class="project-meta">Votorantim, SP &nbsp;·&nbsp; 18.000m² &nbsp;·&nbsp; 2024</p>
+      </div>
+      <div class="project-arrow" aria-hidden="true"><i class="fas fa-arrow-up-right-from-square"></i></div>
+    </div>
+    <div class="project-card reveal" tabindex="0" role="article" aria-label="Shopping Luminar">
+      <div class="project-bg" style="background-image: url('https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=800&q=80'); background-size: cover; background-position: center;" aria-hidden="true"></div>
+      <div class="project-overlay">
+        <div class="project-badge">Comercial</div>
+        <h3 class="project-name">Shopping Luminar</h3>
+        <p class="project-meta">Santos, SP &nbsp;·&nbsp; 45.000m² &nbsp;·&nbsp; 2021</p>
+      </div>
+      <div class="project-arrow" aria-hidden="true"><i class="fas fa-arrow-up-right-from-square"></i></div>
+    </div>
+    <div class="project-card reveal" tabindex="0" role="article" aria-label="Hospital Central Norte">
+      <div class="project-bg" style="background-image: url('https://images.unsplash.com/photo-1632833239869-a37e3a5806d2?w=800&q=80'); background-size: cover; background-position: center;" aria-hidden="true"></div>
+      <div class="project-overlay">
+        <div class="project-badge">Saúde</div>
+        <h3 class="project-name">Hospital Central Norte</h3>
+        <p class="project-meta">Ribeirão Preto, SP &nbsp;·&nbsp; 8.200m² &nbsp;·&nbsp; 2023</p>
+      </div>
+      <div class="project-arrow" aria-hidden="true"><i class="fas fa-arrow-up-right-from-square"></i></div>
+    </div>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ DIFFERENTIALS ══════ -->
+<section id="differentials" class="section-pad" aria-labelledby="diff-title">
+  <span class="section-eyebrow reveal">Por Que a ATOBÁ</span>
+  <h2 class="section-title reveal" id="diff-title">Nossos <span class="accent">Diferenciais</span></h2>
+  <p class="section-lead reveal">O que nos torna a escolha certa para projetos que não admitem erros.</p>
+
+  <div class="diff-grid">
+    <div class="diff-item reveal">
+      <div class="diff-icon"><i class="fas fa-users-gear" aria-hidden="true"></i></div>
+      <h3 class="diff-name">Equipe Qualificada</h3>
+      <p class="diff-desc">200+ profissionais certificados, engenheiros CREA com especializações internacionais e mestres de obras com décadas de experiência.</p>
+    </div>
+    <div class="diff-item reveal">
+      <div class="diff-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></div>
+      <h3 class="diff-name">Segurança Total</h3>
+      <p class="diff-desc">Zero acidentes nos últimos 3 anos. Programa de segurança premiado com ISO 45001 e treinamentos mensais obrigatórios.</p>
+    </div>
+    <div class="diff-item reveal">
+      <div class="diff-icon"><i class="fas fa-microchip" aria-hidden="true"></i></div>
+      <h3 class="diff-name">Tecnologia BIM</h3>
+      <p class="diff-desc">Modelagem paramétrica 3D, clash detection, QR codes nas estruturas e relatórios automatizados integrados ao cliente.</p>
+    </div>
+    <div class="diff-item reveal">
+      <div class="diff-icon"><i class="fas fa-leaf" aria-hidden="true"></i></div>
+      <h3 class="diff-name">Sustentabilidade</h3>
+      <p class="diff-desc">Selos LEED e AQUA em projetos selecionados. Resíduos 100% destinados, energia solar e consumo hídrico monitorado.</p>
+    </div>
+    <div class="diff-item reveal">
+      <div class="diff-icon"><i class="fas fa-headset" aria-hidden="true"></i></div>
+      <h3 class="diff-name">Atendimento 360°</h3>
+      <p class="diff-desc">Gerente de projeto exclusivo, app de acompanhamento em tempo real e canal de comunicação direto 24/7 durante obras.</p>
+    </div>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ TESTIMONIALS ══════ -->
+<section id="testimonials" class="section-pad" aria-labelledby="testi-title">
+  <span class="section-eyebrow reveal">Vozes dos Clientes</span>
+  <h2 class="section-title reveal" id="testi-title">O Que Dizem <span class="accent">Sobre Nós</span></h2>
+
+  <div class="testi-track-wrap" aria-label="Depoimentos de clientes">
+    <div class="testi-track" id="testi-track">
+      <!-- Cards duplicados para loop -->
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"A ATOBÁ entregou nossa sede corporativa 2 semanas antes do prazo e 3% abaixo do orçamento. A qualidade do acabamento é impressionante. Recomendo sem reservas."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">MF</div>
+          <div>
+            <div class="testi-name">Marcelo Fontana</div>
+            <div class="testi-role">CEO, Fontana Investimentos</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"O app de acompanhamento de obra em tempo real foi um diferencial enorme. Acompanhei cada etapa do nosso hospital mesmo estando em outra cidade. Excelência em tudo."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">RS</div>
+          <div>
+            <div class="testi-name">Renata Souza</div>
+            <div class="testi-role">Diretora, Grupo Saúde Norte</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"Terceira obra com a ATOBÁ. Profissionalismo impecável, comunicação transparente e resultado final sempre acima das expectativas. É a parceira ideal para grandes projetos."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">CA</div>
+          <div>
+            <div class="testi-name">Carlos Andrade</div>
+            <div class="testi-role">Diretor de Expansão, ViaMall</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"A gestão de riscos e o protocolo de segurança da ATOBÁ nos deram total tranquilidade. Uma equipe que respira construção e entrega com a alma. Nota 10."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">PT</div>
+          <div>
+            <div class="testi-name">Paulo Trevisan</div>
+            <div class="testi-role">Engenheiro Sênior, TechBuild</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"O projeto do nosso condomínio recebeu o selo LEED Gold graças à assessoria da ATOBÁ. Qualidade construtiva aliada à sustentabilidade real. Parabéns à toda equipe."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">LM</div>
+          <div>
+            <div class="testi-name">Luiza Monteiro</div>
+            <div class="testi-role">Gestora, Incorporadora Verde+</div>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate for seamless loop -->
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"A ATOBÁ entregou nossa sede corporativa 2 semanas antes do prazo e 3% abaixo do orçamento. A qualidade do acabamento é impressionante. Recomendo sem reservas."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">MF</div>
+          <div>
+            <div class="testi-name">Marcelo Fontana</div>
+            <div class="testi-role">CEO, Fontana Investimentos</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"O app de acompanhamento de obra em tempo real foi um diferencial enorme. Acompanhei cada etapa do nosso hospital mesmo estando em outra cidade. Excelência em tudo."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">RS</div>
+          <div>
+            <div class="testi-name">Renata Souza</div>
+            <div class="testi-role">Diretora, Grupo Saúde Norte</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"Terceira obra com a ATOBÁ. Profissionalismo impecável, comunicação transparente e resultado final sempre acima das expectativas. É a parceira ideal para grandes projetos."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">CA</div>
+          <div>
+            <div class="testi-name">Carlos Andrade</div>
+            <div class="testi-role">Diretor de Expansão, ViaMall</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"A gestão de riscos e o protocolo de segurança da ATOBÁ nos deram total tranquilidade. Uma equipe que respira construção e entrega com a alma. Nota 10."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">PT</div>
+          <div>
+            <div class="testi-name">Paulo Trevisan</div>
+            <div class="testi-role">Engenheiro Sênior, TechBuild</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars" aria-label="5 de 5 estrelas">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testi-text">"O projeto do nosso condomínio recebeu o selo LEED Gold graças à assessoria da ATOBÁ. Qualidade construtiva aliada à sustentabilidade real. Parabéns à toda equipe."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" aria-hidden="true">LM</div>
+          <div>
+            <div class="testi-name">Luiza Monteiro</div>
+            <div class="testi-role">Gestora, Incorporadora Verde+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ CONTACT ══════ -->
+<section id="contact" class="section-pad" aria-labelledby="contact-title">
+  <span class="section-eyebrow reveal">Fale Conosco</span>
+  <h2 class="section-title reveal" id="contact-title">Vamos <span class="accent">Construir</span> Juntos</h2>
+  <p class="section-lead reveal">Solicite um orçamento sem compromisso. Nossa equipe responde em até 24 horas.</p>
+
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-location-dot" aria-hidden="true"></i></div>
+        <div>
+          <h4>Endereço</h4>
+          <p>Av. das Engenharias, 1200, Torre A<br>Pinheiros — São Paulo, SP 05422-001</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+        <div>
+          <h4>Telefone</h4>
+          <p>(11) 3456-7890<br>(11) 99999-0000</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+        <div>
+          <h4>E-mail</h4>
+          <p>contato@atoba.com.br<br>obras@atoba.com.br</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+        <div>
+          <h4>Horário</h4>
+          <p>Segunda a Sexta: 8h às 18h<br>Sábados: 9h às 13h</p>
+        </div>
+      </div>
+      <div class="map-placeholder" aria-label="Localização no mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2!2d-46.6831!3d-23.5674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5792a68a4e99%3A0x8b8a4e36f98f5a8b!2sAv.%20Eng.%20Lu%C3%ADs%20Carlos%20Berrini%2C%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1"
+          title="Localização ATOBÁ"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+    <form class="contact-form reveal" novalidate aria-label="Formulário de orçamento">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name" style="display:block; font-family:var(--font-heading); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--orange); margin-bottom:8px;">Nome</label>
+          <input class="form-input" id="name" type="text" placeholder="Seu nome completo" autocomplete="name" />
+        </div>
+        <div class="form-group">
+          <label for="company" style="display:block; font-family:var(--font-heading); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--orange); margin-bottom:8px;">Empresa</label>
+          <input class="form-input" id="company" type="text" placeholder="Nome da empresa" autocomplete="organization" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email" style="display:block; font-family:var(--font-heading); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--orange); margin-bottom:8px;">E-mail</label>
+          <input class="form-input" id="email" type="email" placeholder="seu@email.com" autocomplete="email" />
+        </div>
+        <div class="form-group">
+          <label for="phone" style="display:block; font-family:var(--font-heading); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--orange); margin-bottom:8px;">Telefone</label>
+          <input class="form-input" id="phone" type="tel" placeholder="(11) 00000-0000" autocomplete="tel" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="service" style="display:block; font-family:var(--font-heading); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--orange); margin-bottom:8px;">Serviço</label>
+        <select class="form-select" id="service">
+          <option value="" disabled selected>Selecione o tipo de serviço</option>
+          <option value="civil">Construção Civil</option>
+          <option value="reforma">Reformas</option>
+          <option value="manutencao">Manutenção</option>
+          <option value="eletrica">Instalações Elétricas</option>
+          <option value="hidraulica">Instalações Hidráulicas</option>
+          <option value="gestao">Gestão de Obras</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message" style="display:block; font-family:var(--font-heading); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--orange); margin-bottom:8px;">Mensagem</label>
+        <textarea class="form-textarea" id="message" placeholder="Descreva seu projeto, área aproximada, prazo desejado..."></textarea>
+      </div>
+      <button type="submit" class="form-submit">
+        <i class="fas fa-paper-plane" aria-hidden="true"></i> Enviar Mensagem
+      </button>
+    </form>
+  </div>
+</section>
+
+<div class="construction-strip" aria-hidden="true"></div>
+
+<!-- ══════ FINALE ══════ -->
+<section id="finale" aria-label="Encerramento cinematográfico">
+  <canvas id="finale-canvas" aria-hidden="true"></canvas>
+  <div style="position:absolute;inset:0;background:rgba(6,24,38,0.65);" aria-hidden="true"></div>
+  <div class="finale-content">
+    <p class="finale-tagline" id="finale-tagline">19 anos transformando sonhos em estruturas</p>
+    <h2 class="finale-quote" id="finale-quote">
+      Não construímos apenas <span class="accent">estruturas.</span><br>
+      Construímos o <span class="accent">futuro.</span>
+    </h2>
+    <div class="finale-brand" id="finale-brand">AT<span>OBÁ</span></div>
+    <p class="finale-sub" id="finale-sub">Construções e Serviços — Transformando projetos em realidade.</p>
+  </div>
+</section>
+
+<!-- ══════ FOOTER ══════ -->
+<footer role="contentinfo">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">AT<span>OBÁ</span></div>
+      <p class="footer-desc">Construindo o futuro com excelência, inovação e compromisso desde 2005. A parceira certa para cada etapa da sua obra.</p>
+      <div class="footer-social" aria-label="Redes sociais">
+        <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Serviços</h4>
+      <ul>
+        <li><a href="#services">Construção Civil</a></li>
+        <li><a href="#services">Reformas</a></li>
+        <li><a href="#services">Manutenção</a></li>
+        <li><a href="#services">Instalações Elétricas</a></li>
+        <li><a href="#services">Hidráulica</a></li>
+        <li><a href="#services">Gestão de Obras</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#about">Sobre a ATOBÁ</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#differentials">Diferenciais</a></li>
+        <li><a href="#process">Processo</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="tel:+551134567890">(11) 3456-7890</a></li>
+        <li><a href="mailto:contato@atoba.com.br">contato@atoba.com.br</a></li>
+        <li><a href="#">Av. Engenharias, 1200</a></li>
+        <li><a href="#">São Paulo, SP</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2025 ATOBÁ Construções e Serviços. Todos os direitos reservados.</p>
+    <div class="footer-legal">
+      <a href="#">Privacidade</a>
+      <a href="#">Termos de Uso</a>
+      <a href="#">LGPD</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<a id="back-top" role="button" aria-label="Voltar ao topo" tabindex="0">
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</a>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
